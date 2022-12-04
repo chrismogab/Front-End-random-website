@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 1000px;
+}
+.container {
+  margin: 1rem;
+  text-align: center;
+}
+.tabs li a.tab1 {
+  background-color: #ff0000;
+}
+
+.nav {
+  background-color: #333;
+  background-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
